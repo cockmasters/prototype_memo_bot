@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pythonproject"
+version = "0.1.0"
+description = ""
+authors = ["DemonInMyHead <emworkac999@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.1.1"
+pydantic-settings = "^2.0.3"
+discord-py = "^2.3.2"
+disnake = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
